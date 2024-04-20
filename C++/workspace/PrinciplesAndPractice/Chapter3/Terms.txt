@@ -1,0 +1,48 @@
+Chapter 3 terms
+1. Assignment
+  - Setting a variable's value to a desired value
+2. cin
+  - Standard input stream known as "Character input" defined
+    in the C++ standard library
+  - Interpreted as "see-in"
+3. Concatenation
+  - String operation that combines a string's character sequence
+    to additional character sequence(s)
+4. Conversion
+  - Change of a variable type value to another variable type value
+  - ex: char vairable value to an int variable value
+5. declaration
+  - Statement that gives a name to an object
+6. decrement
+  - Short hand notation to substract 1 from of a value
+  - --number -> number = number -1
+7. definition
+  - A declaration that sets aside memory for an object
+8. increment
+  - Short hand notation to add 1 to a value
+  - ++num -> num = num +1
+9. initialization
+  - inital value assignment to a variable
+10. name
+  - Name chosen for a declared variable 
+11. narrowing
+  - implicitly turning a value into a value of antoher type that
+    does not equal the origanl value, known as an unsafe conversion
+12. object
+  - Place in memory that holds a value of a given type
+13. operation
+  - Allowed commands that can be executed on a variable type using operators
+    or named functions
+14. operator
+  - Direct operations that can be used to modify variables
+  - ex: common arithmetic operators , *, /, +,-
+15. type
+  - defines a set of possible values and a set of operations (for an object)
+  - int, double, char, bool, string
+16. type safety
+  - Only using objects according to the rules for their type
+17. value
+  - memory representation of data through bits
+  - interpreted according to a type
+18. variable
+  - A named object

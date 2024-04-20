@@ -1,0 +1,112 @@
+Chapter 3 review
+1. What is meant by the term prompt?
+    - Console message to the user, usually message asks user for input
+2. Which operator do you use to read into a variable?
+    - >> ("get from"), specifies where input goes
+3. If you want the user to input an integer value into your program for a 
+   variable named number, what are two lines of code you could write to 
+   ask the user to do it and to input the value into your program?
+    - cout << "Enter an integer number\n";
+    - cin >> number;
+4. What is \n called and what purpose does it serve?
+    - It is the "End-of-line" or "newline" character, and is a result
+      of using the enter key during input streaming
+    - Character considered as white space
+    - Because it is considered as white space it ends input stream   
+      - ex: entering input  (i.e. a string) followed by a newline ends the
+        the input stream and places the input to the chosen
+        memory location (variable).
+        - Newline will not be apart of the entered input
+5. What terminates input into a string?
+    - White space such as:
+      - space(s)
+      - newline(s)
+      - tab(s)
+6. What terminates input into an integer?
+    -  White space because integer input is just a sequence of characters
+7. How would you write the following as a single line of code?
+    - cout << "Hello, ";
+      cout << first_name;
+      cout << "!\n";
+    - cout << "Hello, " << first_name << "!\n";
+8. What is an object?
+    - Memory that holds a value of a given type
+9. What is a literal?
+    - Literal interpreted value of data, for exampple a string literal refers
+      to the actual string data where a reference to a string variable
+      would refer to the value of the variable.
+10. What kinds of literals are there?
+    - String literals
+    - Number value literals
+    - boolean literals
+    - non variable data values
+11. What is a variable?
+    - A named object
+12. What are typical sizes for a char, an int, and a double?
+    - char: 1 byte
+    - int: 4 bytes
+    - double: 8 bytes
+13. What measures do we use for the size of small entities in memory, 
+    such as ints and strings?
+    - Bits are used to store variables, but the types of memory
+      serve to interpret that bit mapped memory
+14. What is the difference b/w "=" and "=="?
+    - "=" is the assignment operator
+    - "==" is the equality operator
+15. What is a definition?
+    - Is a declaration that sets aside memory for an object
+16. What is an initialization and how does it differ from an assignment?
+    - Inital value assignment to a variable
+17. What is string concatenation and how do you make it work in C++?
+    - Concatentaion refers to the "+" operator of strings and results 
+      into a combined string of two strings.
+    - ex: string1 + string2 would have a result of string1 characters followed
+      by the characters of string2
+18. Which of the following are legal names in C++? If a name is not legal, why not?
+    - This_little_pig (legal, but can be confusing bc This differs to the keyword this by only a letter)
+    - latest thing 
+    - MiniMineMine (legal, but discouraged b/c not discriptive enough)
+    - This_1_is fine (legal)
+    - the_$12_method (Not legal, invalid character $)
+    - number (legal, but discouraged b/c not descriptive enough)
+    - 2_For_1_special (Not legal, can't start with a number)
+    - _this_is_ok (Not legal, names starting with _ are reserved and this is a keyword)
+    - correct? (Not legal, invalid character?)
+19. Give five examples of legal names that you shouldn't use because they are 
+    likely to cause confusion.
+    - x
+    - num
+    - variable
+    - animal
+    - words
+20. What are some good rules for choosing names
+    - Starts with a leter
+    - Contains only letters, digits, and underscores
+    - Do not define names that differ only in the case of a character
+      - Won't confuse compiler but can confuse other programmers
+    - Don't use keywords
+    - Don't use names of facilities
+    - Use meaningful names
+    - Sparingly use abbreviations and acronyms
+    - Don't use overly long names
+    - Use underscores to seperate words in an identifier
+    - Don't use names with all capitol letters
+    - Use initial capitol letter for defined types
+    - Avoid names that are easy to mistype, misread and confuse
+21. What is type safety and why is it important?
+    - Type safety deals with storing data values in their correct corresponding 
+      types. An int data value goes into and int type variable, a string goes into
+      a string
+    - It is important because storing data in the incorrect variable type can cause
+      data to be partially or completly lost due to incompatibility 
+22. Why can conversion from double to int be a bad thing?
+    - double variable types are floating point number representation and storing 
+      a double value into an into causes precision to be lost.
+    - ex: double value 2.65 being stored into an int varibale would be stored as
+      2
+23. Define a rule to help decide if a conversion from one type to another is safe or unsafe.
+    - make a copy of the variable you want to copy
+    - convert the variable you want to change 
+    - compare the copied variable to the newly converted variable and check for equality
+
+

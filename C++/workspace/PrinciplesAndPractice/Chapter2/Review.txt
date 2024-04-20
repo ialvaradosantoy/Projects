@@ -1,0 +1,33 @@
+1. What is the purpose of the "Hello, World!" program?
+    - To set up projects, source files, development environment, and get aquainted
+      with the compiler error-detection & and error-reporting facilities.
+2. Name the four parts of a function.
+    - a return type, a name, a parameter list, and a function body
+3. Name a function that must appear in every C++ program.
+    - a main function
+4. In the "Hello, World!" program, what is the purpose of the line return 0;?
+    - It is the return type of the main function, on Windows the value is not used
+      since the main function is called by "the system". Where as on unix/linux, it 
+      can be used to check whether the program succeeded. Return of "0", indicates
+      the program terminated successfully.
+5. What is the purpose of the compiler?
+    - The compiler is a program that converts source code/text into machine readable code,
+      namely an executable/object code/machine code.
+6. What is the purpose of the #include directive?
+    - The #include directive instructs the computer to make available facilities from a file (i.e header file),
+7. What does a .h suffix at the end of a file name signify in C++?
+    - This signifys a header file that has function definitions. They can be included into source files for using
+      the functions without having to write the functions in every file.
+8. What does the linker do for your program?
+    - The linker combines the object code created from source file and respective include directives to create an 
+      executable program that can ran with the intended requirements.
+9. What is the difference between a source file and an object file?
+    - The source file is the human readable file created by a human, and an object file is the generated machine 
+      readble file from a source file being compiled.
+10. What is an IDE and what does it do for you?
+    - An IDE is an Integrated Development Environment, and it consists of an editor and many features for making
+      program creation easier. Such as color coding of text to disntiguish syntax with respect to the programming
+      language being used. It also contains many helpful tools for debugging, compiling, and executing programs.
+11. If you understand everything in the textbook, why is it neccessary to practice?
+    - Programming is like any skill-based craft, so practicing helps maintain a high level practical skill and 
+      develop/reinforce good programming habbits.
